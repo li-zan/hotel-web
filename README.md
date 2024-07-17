@@ -20,20 +20,18 @@ npm run build --report
 ```
 
 ## 可能出现的问题
+
 ![demo](/screenshots/问题.png)
+
 ```
 可能是因为webpack版本太高
 解决方法：
 1、删除node_modules依赖和package-lock.json文件
-2、npm install 
+2、npm install
 3、下载打包依赖
   npm i -D webpack-cli@3.1.0
   npm i -D webpack-dev-server@3.1.5
 4、npm run dev
-```
-## 后端源码
-```
-https://gitee.com/huangsr/hotel-manager.git
 ```
 
 ## 部分截图
@@ -44,5 +42,3 @@ https://gitee.com/huangsr/hotel-manager.git
 ![demo](/screenshots/AdminInfo.png)
 ![demo](/screenshots/WorkInfo.png)
 ![demo](/screenshots/CategoryManager.png)
-
-
